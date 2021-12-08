@@ -15,6 +15,9 @@ RPROMPT="%*"
 
 # Add Location to $PATH Variables
 
+# Add Visual Studio Code (code)
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+
 export JAVA_HOME=$(/usr/libexec/java_home)
 export PATH="/opt/homebrew/opt/python@3.9/libexec/bin:$PATH"
 export LANG=en_US.UTF-8
