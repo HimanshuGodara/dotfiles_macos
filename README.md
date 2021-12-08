@@ -2,7 +2,7 @@
 # dotfiles_macos
 Automating 🛠  development  environment creation
 
-Learning about dotfiles [dotfiles.eieio.xyz](dotfiles.eieio.xyz)
+I'm learning a ton about [dotfiles, command line use, Homebrew, zsh, git, macOS and more with the course ***Dotfiles from Start to Finish-ish***](http://dotfiles.eieio.xyz/) by [@EIEIOxyz](https://twitter.com/EIEIOxyz/), and you can too!
 
 
 ## TODO
@@ -14,3 +14,4 @@ Learning about dotfiles [dotfiles.eieio.xyz](dotfiles.eieio.xyz)
 - Trackpad (3 finger drag & tap to click)
 - .zshrc
 - Git (Config and SSH)
+- Share this repo with a million people
