@@ -11,7 +11,6 @@
 
 - create:
     - ~/Work
-    - ~/testing/nested/directories
 
 # - shell:
 #   - [git submodule update --init --recursive, Installing submodules]
