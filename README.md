@@ -2,7 +2,7 @@
 # dotfiles_macos
 Automating 🛠  development  environment creation
 
-Learning about dotfiles [[dotfiles.eieio.xyz]]
+Learning about dotfiles [dotfiles.eieio.xyz](dotfiles.eieio.xyz)
 
 
 ## TODO
