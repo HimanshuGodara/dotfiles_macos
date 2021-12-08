@@ -12,6 +12,4 @@ Learning about dotfiles [dotfiles.eieio.xyz](dotfiles.eieio.xyz)
 - Mission Control Preferences (Don't rearrange spaces)
 - Finder Show Path bar & Status Bar
 - Trackpad (3 finger drag & tap to click)
-- .zshrc
 - Git (Config and SSH)
-- Homebrew Install
