@@ -1,6 +1,6 @@
 
 # dotfiles_macos
-Automating 🛠 development  environment creation
+Automating 🛠  development  environment creation
 
 Learning about dotfiles
 
