@@ -15,6 +15,8 @@ brew "exa"
 brew "git"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
+# Mac App Store command-line interface
+brew "mas"
 # Matroska media files manipulation tools
 brew "mkvtoolnix"
 # Media player based on MPlayer and mplayer2
@@ -35,5 +37,13 @@ cask "flutter"
 cask "gitkraken"
 # Web browser
 cask "google-chrome"
+# Client for the Google Drive storage service
+cask "google-drive"
 # Open-source code editor
 cask "visual-studio-code"
+mas "Craft", id: 1487937127
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Session", id: 1521432881
+mas "WPS Office", id: 1468073139
+mas "Xcode", id: 497799835
