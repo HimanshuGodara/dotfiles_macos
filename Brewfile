@@ -1,3 +1,4 @@
+tap "eth-p/software"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
@@ -25,6 +26,8 @@ brew "mpv"
 brew "numpy"
 # Library to create, extract, and modify Windows Imaging files
 brew "wimlib"
+# Bash scripts that integrate bat with various command-line tools
+brew "eth-p/software/bat-extras"
 # Application launcher and productivity software
 cask "alfred"
 # GUI app for Homebrew
