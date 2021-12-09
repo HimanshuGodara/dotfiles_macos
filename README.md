@@ -13,3 +13,4 @@ Learning about dotfiles [dotfiles.eieio.xyz](dotfiles.eieio.xyz)
 - Finder Show Path bar & Status Bar
 - Trackpad (3 finger drag & tap to click)
 - Git (Config and SSH)
+- Alfred setup (Turn off the spotlight shortcut and use it for alfred)
