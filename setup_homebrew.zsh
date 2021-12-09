@@ -2,7 +2,13 @@
 
 echo "\n<<< Starting Homebrew setup >>>\n"
 
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+if exists brew; then 
+  echo "Homebrew already installed"
+else
+  echo "Installing Homebrew"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+fi
+
 
 # TODO: Keep an eye out for a better '--no-quarantine' option
 # Currently we can't do brew budle and --no-quarantine together
