@@ -22,6 +22,8 @@ brew "mas"
 brew "mkvtoolnix"
 # Media player based on MPlayer and mplayer2
 brew "mpv"
+# Free (GNU) replacement for the Pico text editor
+brew "nano"
 # Package for scientific computing with Python
 brew "numpy"
 # Library to create, extract, and modify Windows Imaging files
