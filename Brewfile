@@ -55,4 +55,4 @@ mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Session", id: 1521432881
 mas "WPS Office", id: 1468073139
-mas "Xcode", id: 497799835
+# mas "Xcode", id: 497799835
