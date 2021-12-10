@@ -30,6 +30,8 @@ brew "nano"
 brew "numpy"
 # Library to create, extract, and modify Windows Imaging files
 brew "wimlib"
+# UNIX shell (command interpreter)
+brew "zsh"
 # Bash scripts that integrate bat with various command-line tools
 brew "eth-p/software/bat-extras"
 # Application launcher and productivity software
