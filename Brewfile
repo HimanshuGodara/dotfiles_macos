@@ -24,6 +24,8 @@ brew "mas"
 brew "mkvtoolnix"
 # Media player based on MPlayer and mplayer2
 brew "mpv"
+# Node version management
+brew "n"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
 # Package for scientific computing with Python
