@@ -22,3 +22,25 @@ else
   echo "Enter user password to change login shell"
   chsh -s /opt/homebrew/bin/zsh
 fi
+
+# Symlink sh to zsh
+sh_link=`readlink /private/var/select/sh`
+if [ "${sh_link}" = "/bin/zsh" ]; then
+  echo "sh is already symlinked to /bin/zsh, skipping..."
+else
+  echo "Symlinking sh to zsh..."
+  echo "Enter superuser (sudo) password to symlink sh to zsh"
+  sudo ln -sfv /bin/zsh /private/var/select/sh
+fi
+
+# Would prefer to link sh with homebrew version of zsh instead
+#  sudo ln -sfv /opt/homebrew/bin/zsh /private/var/select/sh
+#  sudo ln -sfv `brew--prefix zsh` /private/var/select/sh
+
+# Instructor's Solution--->
+# if sh --version | grep -q zsh; then
+#   echo "/private/var/select/sh is symlinked to zsh"
+# else
+#   echo "Enter the superuser (sudo) password to symlink sh to zsh"
+#   sudo ln -sfv /bin/zsh /private/var/select/sh
+# fi
