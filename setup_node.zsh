@@ -4,7 +4,7 @@ echo "\n<<< Starting Node setup >>>\n"
 
 
 # Node versions are managed by 'n', which is in the Brewfile.
-# See zshrc for the N_PREFIX variable and addition to the PATH.
+# See zshrc for the N_PREFIX variable and addition to the $path array.
 if exists node; then 
   echo "Node $(node --version) & NPM $(npm --version) already installed"
 else
@@ -13,7 +13,6 @@ else
 fi
 
 #  Install Global NPM packages
-# npm install --global yarn
 npm install --global firebase-tools
 npm install --global @angular/cli
 npm install --global @ionic/cli

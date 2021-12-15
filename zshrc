@@ -24,11 +24,20 @@ PROMPT="
 
 RPROMPT="%*"
 
-# Add Location to $PATH Variables
+# Add Location to $path array
 
-export PATH="$N_PREFIX/bin:$PATH"
-# Add Visual Studio Code (code)
-export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+# # Add Visual Studio Code (code)
+# export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+# export PATH="$PATH:$N_PREFIX/bin"
+
+typeset -U path
+path=(
+	"$N_PREFIX/bin"
+	$path
+	"/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+)
+
+
 
 export JAVA_HOME=$(/usr/libexec/java_home)
 export PATH="/opt/homebrew/opt/python@3.9/libexec/bin:$PATH"
