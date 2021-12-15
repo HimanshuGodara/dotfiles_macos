@@ -20,8 +20,6 @@ brew "httpie"
 brew "less"
 # Mac App Store command-line interface
 brew "mas"
-# Matroska media files manipulation tools
-brew "mkvtoolnix"
 # Media player based on MPlayer and mplayer2
 brew "mpv"
 # Node version management
