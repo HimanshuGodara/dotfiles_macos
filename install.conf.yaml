@@ -6,15 +6,19 @@
 
 - link:
     ~/.zshrc: 
+    ~/.zshenv: 
     ~/.gitconfig:
+    ~/.config/bat: 
+      create: true
+      path: config/bat
+
 - create:
     - ~/Work
 
 - shell:
-#   - [git submodule update --init --recursive, Installing submodules]
-    - echo "hey guys"
-    - sleep 2
-    - 
-      command: ./test.zsh
+    - command: ./setup_homebrew.zsh
+      stdout: true
+      stderr: true
+    - command: ./setup_zsh.zsh
       stdout: true
       stderr: true

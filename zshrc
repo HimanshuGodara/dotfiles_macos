@@ -1,12 +1,19 @@
 echo "Hello from .zshrc"
 
 # Set Variables
+# Syntax highlighting for man pages using bat
+# export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+export HOMEBREW_CASK_OPTS="--no-quarantine"
+export NULLCMD=bat
 
 # Change ZSH Options
 
 # Create Aliases
-alias ls="ls -lAFh"
-
+alias ls='exa -laFh --git'
+alias exa='exa -laFh --git'
+alias man='batman'
+alias bbd='brew bundle dump --force --describe'
+alias trail='<<<${(F)path}'
 # Customize Prompt(s)
 PROMPT="
 %1~ %L  %# "
@@ -14,6 +21,9 @@ PROMPT="
 RPROMPT="%*"
 
 # Add Location to $PATH Variables
+
+# Add Visual Studio Code (code)
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
 export JAVA_HOME=$(/usr/libexec/java_home)
 export PATH="/opt/homebrew/opt/python@3.9/libexec/bin:$PATH"

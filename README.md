@@ -12,6 +12,7 @@ I'm learning a ton about [dotfiles, command line use, Homebrew, zsh, git, macOS 
 - Mission Control Preferences (Don't rearrange spaces)
 - Finder Show Path bar & Status Bar
 - Trackpad (3 finger drag & tap to click)
-- .zshrc
 - Git (Config and SSH)
-- Share this repo with a million people
+- Share this repo with a trillion people (include 👽?)
+- Alfred setup (Turn off the spotlight shortcut and use it for alfred)
+- Snappy setup (swap the default screenshot shortcut for snappy)
