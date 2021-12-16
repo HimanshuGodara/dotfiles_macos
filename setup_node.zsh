@@ -13,6 +13,7 @@ else
 fi
 
 #  Install Global NPM packages
+# npm install --global yarn
 npm install --global firebase-tools
 npm install --global @angular/cli
 npm install --global @ionic/cli
