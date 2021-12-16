@@ -20,11 +20,6 @@ brew "httpie"
 brew "less"
 # Mac App Store command-line interface
 brew "mas"
-<<<<<<< HEAD
-=======
-# Media player based on MPlayer and mplayer2
-brew "mpv"
->>>>>>> node
 # Node version management
 brew "n"
 # Free (GNU) replacement for the Pico text editor
