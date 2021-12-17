@@ -20,14 +20,10 @@ brew "httpie"
 brew "less"
 # Mac App Store command-line interface
 brew "mas"
-# Matroska media files manipulation tools
-brew "mkvtoolnix"
-# Media player based on MPlayer and mplayer2
-brew "mpv"
+# Node version management
+brew "n"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
-# Package for scientific computing with Python
-brew "numpy"
 # Library to create, extract, and modify Windows Imaging files
 brew "wimlib"
 # UNIX shell (command interpreter)

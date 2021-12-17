@@ -5,6 +5,8 @@ echo "Hello from .zshrc"
 # export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 export NULLCMD=bat
+export N_PREFIX="$HOME/.n"
+export PREFIX="$N_PREFIX"
 
 # Change ZSH Options
 
@@ -14,16 +16,28 @@ alias exa='exa -laFh --git'
 alias man='batman'
 alias bbd='brew bundle dump --force --describe'
 alias trail='<<<${(F)path}'
+alias rm=trash
+
 # Customize Prompt(s)
 PROMPT="
 %1~ %L  %# "
 
 RPROMPT="%*"
 
-# Add Location to $PATH Variables
+# Add Location to $path array
 
-# Add Visual Studio Code (code)
-export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+# # Add Visual Studio Code (code)
+# export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+# export PATH="$PATH:$N_PREFIX/bin"
+
+typeset -U path
+path=(
+	"$N_PREFIX/bin"
+	$path
+	"/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+)
+
+
 
 export JAVA_HOME=$(/usr/libexec/java_home)
 export PATH="/opt/homebrew/opt/python@3.9/libexec/bin:$PATH"
